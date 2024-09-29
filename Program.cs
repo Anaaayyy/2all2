@@ -73,6 +73,7 @@ namespace _2all2
     {
         static void Main()
         {
+            Console.WriteLine("------------Наследование и полиморфизм-------------");
             // Создание объектов классов Circle и Rectangle
             Shape circle = new Circle(10);  // Радиус круга = 5
             Shape rectangle = new Rectangle(7, 18);  // Ширина = 7, Высота = 18
